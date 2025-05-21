@@ -6,19 +6,19 @@ const activities = [
   {
     title: 'Elder Home Care',
     description: 'Washing clothes, home maintenance, and companionship for elders in our community.',
-    image: '/images/1.JPG',
+    image: '/images/1.jpg',
     link: '/activities',
   },
   {
     title: 'Blood Donation Drive',
     description: 'Regular blood donation campaigns to support local hospitals and health centers.',
-    image: '/images/blood.JPG',
+    image: '/images/blood.jpg',
     link: '/activities',
   },
   {
     title: 'City Cleaning Program',
     description: 'Organizing volunteers to clean and beautify Debrebrehan city streets and public spaces.',
-    image: '/images/vv.JPG',
+    image: '/images/vv.jpg',
     link: '/activities',
   }
 ]

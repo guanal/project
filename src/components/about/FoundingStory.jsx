@@ -8,7 +8,7 @@ const FoundingStory = () => {
           {/* Image column */}
           <div className="relative" data-aos="fade-right">
             <img
-              src="/images/logo.JPG"
+              src="/images/logo.jpg"
               alt="Founding members of Sewgna Charity Association"
               className="rounded-lg shadow-lg w-full h-auto"
             />
