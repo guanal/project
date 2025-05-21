@@ -12,21 +12,21 @@ const activities = [
     category: 'elder-support',
     images: [
       {
-        src: 'https://images.pexels.com/photos/7551617/pexels-photo-7551617.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        src: '/images/ab.png',
         alt: 'Volunteer helping an elder with groceries',
         title: 'Elder Home Visit',
         description: 'Our volunteers regularly visit elders to provide companionship and assistance',
         category: 'elder-support'
       },
       {
-        src: 'https://images.pexels.com/photos/7551623/pexels-photo-7551623.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        src: '/images/maa.jpg',
         alt: 'Volunteers cleaning an elder\'s home',
         title: 'Home Maintenance',
         description: 'Providing cleaning and maintenance services for elders\' homes',
         category: 'elder-support'
       },
       {
-        src: 'https://images.pexels.com/photos/7552081/pexels-photo-7552081.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        src: '/images/re.jpg',
         alt: 'Elder receiving support',
         title: 'Care and Support',
         description: 'Building meaningful relationships with the elders we serve',
@@ -41,24 +41,24 @@ const activities = [
     category: 'blood-donation',
     images: [
       {
-        src: 'https://images.pexels.com/photos/6823539/pexels-photo-6823539.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        src: '/images/dd.jpg',
         alt: 'Blood donation campaign',
         title: 'Blood Donation Drive',
         description: 'Youth volunteers participating in our blood donation campaign',
         category: 'blood-donation'
       },
       {
-        src: 'https://images.pexels.com/photos/6823474/pexels-photo-6823474.jpeg?auto=compress&cs=tinysrgb&w=1600',
-        alt: 'Blood donation awareness session',
-        title: 'Awareness Session',
-        description: 'Educating the community about the importance of blood donation',
+        src: '/images/bbbb.jpg',
+        alt: 'Blood donation',
+        title: 'Blood Donation',
+        description: 'Participation in donating blood',
         category: 'blood-donation'
       },
       {
-        src: 'https://images.pexels.com/photos/6823667/pexels-photo-6823667.jpeg?auto=compress&cs=tinysrgb&w=1600',
-        alt: 'Blood donation certificate',
-        title: 'Donor Recognition',
-        description: 'Recognizing our dedicated blood donors',
+        src: '/images/bbb.jpg',
+        alt: 'Photo after donation',
+        title: 'Photo After Donation',
+        description: 'Photos after successful blood donation campaign',
         category: 'blood-donation'
       }
     ]
@@ -70,21 +70,28 @@ const activities = [
     category: 'fundraising',
     images: [
       {
-        src: 'https://images.pexels.com/photos/6646891/pexels-photo-6646891.jpeg?auto=compress&cs=tinysrgb&w=1600',
-        alt: 'Fundraising event',
-        title: 'Community Fundraiser',
-        description: 'Raising funds for heart disease patients',
+        src: '/images/lo.jpg',
+        alt: 'Lottery Fundraising event',
+        title: 'Holiday Lottery Fundraiser',
+        description: 'Raising funds for holidays by lottery',
         category: 'fundraising'
       },
       {
-        src: 'https://images.pexels.com/photos/7550330/pexels-photo-7550330.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        src: '/images/so.jpg',
+        alt: 'Soft cloth fundraiser',
+        title: 'Soft Cloth Fundraiser',
+        description: 'Raising holiday funds by selling soft cloths used for toilet and hand cleaning',
+        category: 'fundraising'
+      },
+      {
+        src: '/images/me.jpg',
         alt: 'Shoe cleaning fundraiser',
         title: 'Shoe Cleaning Service',
         description: 'Youth members raising funds through shoe cleaning services',
         category: 'fundraising'
       },
       {
-        src: 'https://images.pexels.com/photos/6646974/pexels-photo-6646974.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        src: '/images/pa.jpg',
         alt: 'Donation handover',
         title: 'Support Delivery',
         description: 'Providing financial support to those in need of medical treatment',
@@ -99,22 +106,22 @@ const activities = [
     category: 'city-cleaning',
     images: [
       {
-        src: 'https://images.pexels.com/photos/6646919/pexels-photo-6646919.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        src: '/images/vv.jpg',
         alt: 'City cleaning volunteers',
         title: 'City Cleanup Day',
         description: 'Volunteers working together to clean public spaces',
         category: 'city-cleaning'
       },
       {
-        src: 'https://images.pexels.com/photos/6646709/pexels-photo-6646709.jpeg?auto=compress&cs=tinysrgb&w=1600',
-        alt: 'Street cleaning initiative',
+        src: '/images/st.jpg',
+        alt: 'Street Cleanup',
         title: 'Street Cleanup',
         description: 'Youth collecting trash from city streets',
         category: 'city-cleaning'
       },
       {
-        src: 'https://images.pexels.com/photos/6647037/pexels-photo-6647037.jpeg?auto=compress&cs=tinysrgb&w=1600',
-        alt: 'Team of cleanup volunteers',
+        src: '/images/b.jpg',
+        alt: 'Volunteer team',
         title: 'Volunteer Team',
         description: 'Our dedicated team after a successful cleanup event',
         category: 'city-cleaning'
@@ -128,21 +135,21 @@ const activities = [
     category: 'holiday-support',
     images: [
       {
-        src: 'https://images.pexels.com/photos/6646949/pexels-photo-6646949.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        src: '/images/ho.jpg',
         alt: 'Holiday gift distribution',
         title: 'Holiday Gifts',
         description: 'Distributing gifts and supplies during holiday seasons',
         category: 'holiday-support'
       },
       {
-        src: 'https://images.pexels.com/photos/6646990/pexels-photo-6646990.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        src: '/images/mea.jpg',
         alt: 'Holiday meal preparation',
         title: 'Holiday Meals',
         description: 'Preparing special meals for elders during holidays',
         category: 'holiday-support'
       },
       {
-        src: 'https://images.pexels.com/photos/6647007/pexels-photo-6647007.jpeg?auto=compress&cs=tinysrgb&w=1600',
+        src: '/images/ce.jpg',
         alt: 'Volunteers during holiday event',
         title: 'Holiday Celebration',
         description: 'Bringing joy and companionship during holiday celebrations',
@@ -150,7 +157,8 @@ const activities = [
       }
     ]
   }
-]
+];
+
 
 // Combine all images into a single array for the gallery
 const allImages = activities.flatMap(activity => activity.images)

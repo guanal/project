@@ -18,7 +18,7 @@ const FundraisingEvents = () => {
           >
             <div className="relative h-64">
               <img 
-                src="https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1600" 
+                src="/images/hoyy.jpg" 
                 alt="HOYAHOYE Celebration"
                 className="w-full h-full object-cover"
               />
@@ -62,7 +62,7 @@ const FundraisingEvents = () => {
           >
             <div className="relative h-64">
               <img 
-                src="https://images.pexels.com/photos/6646921/pexels-photo-6646921.jpeg?auto=compress&cs=tinysrgb&w=1600" 
+                src="/images/en.jpg" 
                 alt="ENKUTATASH Celebration"
                 className="w-full h-full object-cover"
               />

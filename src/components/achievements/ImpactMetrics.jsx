@@ -14,22 +14,22 @@ const metrics = [
     suffix: '+'
   },
   {
-    value: 15,
-    label: 'Home renovations completed',
+    value: 2,
+    label: 'Home maintainace completed',
     suffix: ''
   },
   {
     value: 100,
-    label: 'Community members consulted',
+    label: 'Community members ',
     suffix: '+'
   },
   {
-    value: 5,
-    label: 'Heart disease patients funded',
+    value: 3,
+    label: 'persons with  disease funded',
     suffix: ''
   },
   {
-    value: 12,
+    value: 5,
     label: 'Blood donation campaigns organized',
     suffix: ''
   },
@@ -39,7 +39,7 @@ const metrics = [
     suffix: '+'
   },
   {
-    value: 25,
+    value: 2,
     label: 'Partner organizations',
     suffix: '+'
   }

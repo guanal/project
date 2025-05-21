@@ -1,90 +1,27 @@
 import SectionHeading from '../common/SectionHeading'
 
-// Mock volunteer data
-const volunteers = [
-  {
-    name: 'Meron Abebe',
-    role: 'Elder Support Coordinator',
-    image: 'https://images.pexels.com/photos/6647032/pexels-photo-6647032.jpeg?auto=compress&cs=tinysrgb&w=1600'
-  },
-  {
-    name: 'Yonas Haile',
-    role: 'Blood Donation Coordinator',
-    image: 'https://images.pexels.com/photos/6646991/pexels-photo-6646991.jpeg?auto=compress&cs=tinysrgb&w=1600'
-  },
-  {
-    name: 'Hiwot Girma',
-    role: 'Fundraising Coordinator',
-    image: 'https://images.pexels.com/photos/6646983/pexels-photo-6646983.jpeg?auto=compress&cs=tinysrgb&w=1600'
-  },
-  {
-    name: 'Fikru Tadesse',
-    role: 'City Cleaning Lead',
-    image: 'https://images.pexels.com/photos/6646982/pexels-photo-6646982.jpeg?auto=compress&cs=tinysrgb&w=1600'
-  },
-  {
-    name: 'Kidist Solomon',
-    role: 'Medical Support Coordinator',
-    image: 'https://images.pexels.com/photos/6646981/pexels-photo-6646981.jpeg?auto=compress&cs=tinysrgb&w=1600'
-  },
-  {
-    name: 'Bereket Mengistu',
-    role: 'Event Organizer',
-    image: 'https://images.pexels.com/photos/6646975/pexels-photo-6646975.jpeg?auto=compress&cs=tinysrgb&w=1600'
-  },
-  {
-    name: 'Selam Berhanu',
-    role: 'Volunteer Coordinator',
-    image: 'https://images.pexels.com/photos/6646974/pexels-photo-6646974.jpeg?auto=compress&cs=tinysrgb&w=1600'
-  },
-  {
-    name: 'Tewodros Getahun',
-    role: 'Communications Lead',
-    image: 'https://images.pexels.com/photos/6646973/pexels-photo-6646973.jpeg?auto=compress&cs=tinysrgb&w=1600'
-  }
-]
-
 const VolunteerGrid = () => {
   return (
-    <section className="section bg-white dark:bg-gray-900">
+    <section className="section bg-gradient-to-b from-white to-gray-100 dark:from-gray-900 dark:to-gray-800">
       <div className="container-custom">
         <SectionHeading 
-          title="Our Dedicated Volunteers" 
-          subtitle="Meet some of the committed individuals who power our initiatives and make our impact possible."
+          title="Our Volunteer Movement" 
+          subtitle="Join a vibrant community of changemakers united by passion and purpose to transform lives."
         />
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {volunteers.map((volunteer, index) => (
-            <div 
-              key={index}
-              className="group"
-              data-aos="fade-up"
-              data-aos-delay={index * 50}
-            >
-              <div className="relative rounded-lg overflow-hidden mb-4">
-                <img 
-                  src={volunteer.image} 
-                  alt={volunteer.name}
-                  className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <div className="p-4 w-full">
-                    <p className="text-white font-medium text-sm">
-                      {volunteer.role}
-                    </p>
-                  </div>
-                </div>
-              </div>
-              
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
-                {volunteer.name}
-              </h3>
-              
-              <p className="text-gray-600 dark:text-gray-400 text-sm">
-                {volunteer.role}
-              </p>
-            </div>
-          ))}
+        <div className="relative bg-primary-600 dark:bg-primary-500 rounded-xl overflow-hidden shadow-lg p-8 md:p-12 text-center text-white">
+          <div className="absolute inset-0 opacity-10 bg-[url('https://images.pexels.com/photos/6646917/pexels-photo-6646917.jpeg?auto=compress&cs=tinysrgb&w=1600')] bg-cover bg-center"></div>
+          <div className="relative z-10">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Together, We Make a Difference
+            </h2>
+            <p className="text-lg md:text-xl max-w-3xl mx-auto mb-6">
+              Our volunteers are the heartbeat of our mission, driving change through compassion, dedication, and action. From supporting elders to organizing blood drives, every effort counts.
+            </p>
+            <p className="text-base md:text-lg max-w-2xl mx-auto mb-8">
+              Be part of something bigger. Your skills, time, and passion can create lasting impact in our community.
+            </p>
+          </div>
         </div>
         
         <div className="mt-16 text-center">

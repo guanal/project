@@ -7,21 +7,21 @@ import ImageGallery from '../common/ImageGallery'
 const allImages = [
   // Elder Support
   {
-    src: 'https://images.pexels.com/photos/7551617/pexels-photo-7551617.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    src: '/images/ab.png',
     alt: 'Volunteer helping an elder with groceries',
     title: 'Elder Home Visit',
     description: 'Our volunteers regularly visit elders to provide companionship and assistance',
     category: 'elder-support'
   },
   {
-    src: 'https://images.pexels.com/photos/7551623/pexels-photo-7551623.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    src: '/images/maa.jpg',
     alt: 'Volunteers cleaning an elder\'s home',
     title: 'Home Maintenance',
     description: 'Providing cleaning and maintenance services for elders\' homes',
     category: 'elder-support'
   },
   {
-    src: 'https://images.pexels.com/photos/7552081/pexels-photo-7552081.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    src: '/images/re.jpg',
     alt: 'Elder receiving support',
     title: 'Care and Support',
     description: 'Building meaningful relationships with the elders we serve',
@@ -30,67 +30,55 @@ const allImages = [
   
   // Blood Donation
   {
-    src: 'https://images.pexels.com/photos/6823539/pexels-photo-6823539.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    src: '/images/dd.jpg',
     alt: 'Blood donation campaign',
     title: 'Blood Donation Drive',
     description: 'Youth volunteers participating in our blood donation campaign',
     category: 'blood-donation'
   },
-  {
-    src: 'https://images.pexels.com/photos/6823474/pexels-photo-6823474.jpeg?auto=compress&cs=tinysrgb&w=1600',
-    alt: 'Blood donation awareness session',
-    title: 'Awareness Session',
-    description: 'Educating the community about the importance of blood donation',
-    category: 'blood-donation'
-  },
-  {
-    src: 'https://images.pexels.com/photos/6823667/pexels-photo-6823667.jpeg?auto=compress&cs=tinysrgb&w=1600',
-    alt: 'Blood donation certificate',
-    title: 'Donor Recognition',
-    description: 'Recognizing our dedicated blood donors',
-    category: 'blood-donation'
-  },
+  
+  
   
   // Fundraising
   {
-    src: 'https://images.pexels.com/photos/6646891/pexels-photo-6646891.jpeg?auto=compress&cs=tinysrgb&w=1600',
-    alt: 'Fundraising event',
-    title: 'Community Fundraiser',
-    description: 'Raising funds for heart disease patients',
-    category: 'fundraising'
+    src: '/images/cof.jpg',
+    alt: 'coffee ceremony fundraiser',
+    title: 'Coffee ceremony' ,
+    description: 'preparing a coffee ceremony with elders',
+    category: 'elder-support'
   },
   {
-    src: 'https://images.pexels.com/photos/7550330/pexels-photo-7550330.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    src: '/images/me.jpg',
     alt: 'Shoe cleaning fundraiser',
     title: 'Shoe Cleaning Service',
     description: 'Youth members raising funds through shoe cleaning services',
     category: 'fundraising'
   },
   {
-    src: 'https://images.pexels.com/photos/6646974/pexels-photo-6646974.jpeg?auto=compress&cs=tinysrgb&w=1600',
-    alt: 'Donation handover',
-    title: 'Support Delivery',
-    description: 'Providing financial support to those in need of medical treatment',
-    category: 'fundraising'
+    src: '/images/ha.jpg',
+    alt: 'Habesha ',
+    title: 'Support Habesha',
+    description: 'Providing labour support at habesha for elder',
+    category: 'elder-support'
   },
   
   // City Cleaning
   {
-    src: 'https://images.pexels.com/photos/6646919/pexels-photo-6646919.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    src: '/images/vv.jpg',
     alt: 'City cleaning volunteers',
     title: 'City Cleanup Day',
     description: 'Volunteers working together to clean public spaces',
     category: 'city-cleaning'
   },
   {
-    src: 'https://images.pexels.com/photos/6646709/pexels-photo-6646709.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    src: '/images/st.jpg',
     alt: 'Street cleaning initiative',
     title: 'Street Cleanup',
     description: 'Youth collecting trash from city streets',
     category: 'city-cleaning'
   },
   {
-    src: 'https://images.pexels.com/photos/6647037/pexels-photo-6647037.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    src: '/images/b.jpg',
     alt: 'Team of cleanup volunteers',
     title: 'Volunteer Team',
     description: 'Our dedicated team after a successful cleanup event',
@@ -99,21 +87,21 @@ const allImages = [
   
   // Holiday Support
   {
-    src: 'https://images.pexels.com/photos/6646949/pexels-photo-6646949.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    src: '/images/ho.jpg',
     alt: 'Holiday gift distribution',
     title: 'Holiday Gifts',
     description: 'Distributing gifts and supplies during holiday seasons',
     category: 'holiday-support'
   },
   {
-    src: 'https://images.pexels.com/photos/6646990/pexels-photo-6646990.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    src: '/images/mea.jpg',
     alt: 'Holiday meal preparation',
     title: 'Holiday Meals',
     description: 'Preparing special meals for elders during holidays',
     category: 'holiday-support'
   },
   {
-    src: 'https://images.pexels.com/photos/6647007/pexels-photo-6647007.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    src: '/images/ce.jpg',
     alt: 'Volunteers during holiday event',
     title: 'Holiday Celebration',
     description: 'Bringing joy and companionship during holiday celebrations',
