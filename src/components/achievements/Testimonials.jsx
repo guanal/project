@@ -1,41 +1,4 @@
-import { useState } from 'react'
-import { FiChevronDown, FiChevronUp } from 'react-icons/fi'
 import SectionHeading from '../common/SectionHeading'
-
-const faqs = [
-  {
-    question: "What is the criteria to be a member of Sewgna?",
-    answer: "All you need is to be human with a heart for helping others."
-  },
-  {
-    question: "How can I contact Sewgna?",
-    answer: "You can reach us through the contact details provided on our Contact page."
-  },
-  {
-    question: "What amount should I contribute monthly?",
-    answer: "Contribute as much as your capability allows—every bit helps!"
-  },
-  {
-    question: "How can I help the association and the poor?",
-    answer: "You can contribute through labor, financial support, or any skills and resources you can offer."
-  },
-  {
-    question: "Where does the association operate?",
-    answer: "We are currently active in Debrebrehan."
-  },
-  {
-    question: "Is there a registration form for new members?",
-    answer: "Yes, new members fill out a form when invited to join our group."
-  },
-  {
-    question: "What has helped Sewgna stay strong until now?",
-    answer: "The strong ambition of our members, the sense of brotherly and sisterly connection, and the motivation to help others keep us thriving."
-  },
-  {
-    question: "How many members does Sewgna have?",
-    answer: "We have over 100 members, with many actively contributing to our mission."
-  }
-]
 
 const charityQuotes = [
   {
@@ -75,54 +38,19 @@ const charityQuotes = [
   }
 ]
 
-const FaqAndQuotes = () => {
-  const [openIndex, setOpenIndex] = useState(null)
-
-  const toggleFaq = (index) => {
-    setOpenIndex(openIndex === index ? null : index)
-  }
-
+const InspiringQuotes = () => {
   return (
-    <section className="section bg-white">
-      <div className="container-custom">
-        {/* FAQ Section */}
+    <section className="section bg-white relative overflow-hidden">
+      {/* Subtle background pattern */}
+      <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/subtle-dots.png')] opacity-10"></div>
+      
+      <div className="container-custom relative z-10">
         <SectionHeading 
-          title="Join the Sewgna Movement" 
-          subtitle="Explore how you can become part of our vibrant community making a difference in Debrebrehan."
+          title="Inspired to Give" 
+          subtitle="Be moved by the wisdom of global voices celebrating the power of charity."
         />
         
-        <div className="max-w-4xl mx-auto mb-16" data-aos="fade-up">
-          <div className="grid gap-2">
-            {faqs.map((faq, index) => (
-              <div 
-                key={index}
-                className="border-b border-gray-300 py-4 cursor-pointer"
-                onClick={() => toggleFaq(index)}
-              >
-                <div className="flex justify-between items-center">
-                  <h3 className="text-lg text-gray-900 dark:text-gray-400">
-                    {faq.question}
-                  </h3>
-                  <span>
-                    {openIndex === index ? (
-                      <FiChevronUp className="text-gray-500" size={20} />
-                    ) : (
-                      <FiChevronDown className="text-gray-500" size={20} />
-                    )}
-                  </span>
-                </div>
-                {openIndex === index && (
-                  <p className="text-gray-600 dark:text-gray-500 mt-2">
-                    {faq.answer}
-                  </p>
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-        
-        {/* Charity Quotes Section */}
-        <div className="max-w-4xl mx-auto" data-aos="fade-up" data-aos-delay="100">
+        <div className="max-w-4xl mx-auto" data-aos="fade-up">
           <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-900 dark:text-white mb-8">
             Voices That Inspire Us
           </h2>
@@ -146,10 +74,28 @@ const FaqAndQuotes = () => {
               </div>
             ))}
           </div>
+          
+          <div className="mt-12 text-center" data-aos="fade-up" data-aos-delay="200">
+            <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
+              Ready to Make a Difference?
+            </h3>
+            <p className="text-gray-700 dark:text-gray-200 mb-6 max-w-xl mx-auto">
+              Join our community and start contributing to Sewgna’s mission in Debrebrehan.
+            </p>
+            <a
+              href="https://t.me/sewgnainhalf2012ec"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-6 py-3 bg-orange-500 dark:bg-purple-500 text-white rounded-lg hover:bg-orange-600 dark:hover:bg-purple-600 transition-colors"
+              aria-label="Join Sewgna's Telegram group"
+            >
+              Join Our Telegram
+            </a>
+          </div>
         </div>
       </div>
     </section>
   )
 }
 
-export default FaqAndQuotes
+export default InspiringQuotes

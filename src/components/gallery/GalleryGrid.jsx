@@ -7,21 +7,21 @@ import ImageGallery from '../common/ImageGallery'
 const allImages = [
   // Elder Support
   {
-    src: '/images/ab.PNG',
+    src: '/images/ab.png',
     alt: 'Volunteer helping an elder with groceries',
     title: 'Elder Home Visit',
     description: 'Our volunteers regularly visit elders to provide companionship and assistance',
     category: 'elder-support'
   },
   {
-    src: '/images/maa.JPG',
+    src: '/images/maa.jpg',
     alt: 'Volunteers cleaning an elder\'s home',
     title: 'Home Maintenance',
     description: 'Providing cleaning and maintenance services for elders\' homes',
     category: 'elder-support'
   },
   {
-    src: '/images/re.JPG',
+    src: '/images/re.jpg',
     alt: 'Elder receiving support',
     title: 'Care and Support',
     description: 'Building meaningful relationships with the elders we serve',
