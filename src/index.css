@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Primary colors */
+  --color-primary-50: 236 245 255;
+  --color-primary-100: 224 239 254;
+  --color-primary-200: 186 218 254;
+  --color-primary-300: 144 194 255;
+  --color-primary-400: 99 163 252;
+  --color-primary-500: 66 133 244;
+  --color-primary-600: 42 105 222;
+  --color-primary-700: 33 78 168;
+  --color-primary-800: 29 57 113;
+  --color-primary-900: 27 44 84;
+  --color-primary-950: 18 29 54;
+  
+  /* Secondary colors */
+  --color-secondary-50: 238 246 245;
+  --color-secondary-100: 212 236 234;
+  --color-secondary-200: 169 216 211;
+  --color-secondary-300: 126 195 185;
+  --color-secondary-400: 82 176 163;
+  --color-secondary-500: 45 159 143;
+  --color-secondary-600: 35 133 123;
+  --color-secondary-700: 31 105 97;
+  --color-secondary-800: 27 78 72;
+  --color-secondary-900: 23 53 50;
+  --color-secondary-950: 13 33 32;
+  
+  /* Accent colors */
+  --color-accent-50: 255 247 237;
+  --color-accent-100: 255 237 213;
+  --color-accent-200: 254 215 170;
+  --color-accent-300: 254 186 125;
+  --color-accent-400: 251 146 60;
+  --color-accent-500: 249 115 22;
+  --color-accent-600: 217 91 19;
+  --color-accent-700: 180 71 21;
+  --color-accent-800: 147 62 22;
+  --color-accent-900: 124 58 22;
+  --color-accent-950: 67 26 11;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply font-body text-base antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading font-bold leading-tight;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+  
+  h4 {
+    @apply text-xl md:text-2xl;
+  }
+  
+  h5 {
+    @apply text-lg md:text-xl;
+  }
+  
+  h6 {
+    @apply text-base md:text-lg;
+  }
+  
+  p {
+    @apply leading-relaxed;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-opacity-50;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-600 text-white hover:bg-primary-700 focus:ring-primary-500;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary-600 text-white hover:bg-secondary-700 focus:ring-secondary-500;
+  }
+  
+  .btn-accent {
+    @apply bg-accent-500 text-white hover:bg-accent-600 focus:ring-accent-400;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-primary-600 text-primary-600 hover:bg-primary-50 dark:hover:bg-primary-900 focus:ring-primary-500;
+  }
+  
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .section {
+    @apply py-16 md:py-24;
+  }
+  
+  .card {
+    @apply bg-white dark:bg-gray-800 rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-lg;
+  }
+  
+  /* Animated underline for links */
+  .link-underline {
+    @apply relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full;
+  }
+}
+
+.lightbox-overlay {
+  z-index: 9999;
+}
