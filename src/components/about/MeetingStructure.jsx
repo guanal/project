@@ -45,7 +45,7 @@ const MeetingStructure = () => {
           {/* Image */}
           <div className="order-1 lg:order-2 relative" data-aos="fade-left">
             <img
-              src="/../../images/nn.jpg"
+              src="/public/images/nn.JPG"
               alt="Members during a monthly meeting"
               className="rounded-lg shadow-lg w-full h-auto"
             />

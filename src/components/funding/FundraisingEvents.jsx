@@ -18,7 +18,7 @@ const FundraisingEvents = () => {
           >
             <div className="relative h-64">
               <img 
-                src="/images/hoyy.jpg" 
+                src="/images/hoyy.JPG" 
                 alt="HOYAHOYE Celebration"
                 className="w-full h-full object-cover"
               />

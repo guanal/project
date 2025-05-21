@@ -7,21 +7,21 @@ import ImageGallery from '../common/ImageGallery'
 const allImages = [
   // Elder Support
   {
-    src: '/images/ab.png',
+    src: '/images/ab.PNG',
     alt: 'Volunteer helping an elder with groceries',
     title: 'Elder Home Visit',
     description: 'Our volunteers regularly visit elders to provide companionship and assistance',
     category: 'elder-support'
   },
   {
-    src: '/images/maa.jpg',
+    src: '/images/maa.JPG',
     alt: 'Volunteers cleaning an elder\'s home',
     title: 'Home Maintenance',
     description: 'Providing cleaning and maintenance services for elders\' homes',
     category: 'elder-support'
   },
   {
-    src: '/images/re.jpg',
+    src: '/images/re.JPG',
     alt: 'Elder receiving support',
     title: 'Care and Support',
     description: 'Building meaningful relationships with the elders we serve',
@@ -30,7 +30,7 @@ const allImages = [
   
   // Blood Donation
   {
-    src: '/images/dd.jpg',
+    src: '/images/dd.JPG',
     alt: 'Blood donation campaign',
     title: 'Blood Donation Drive',
     description: 'Youth volunteers participating in our blood donation campaign',
@@ -41,21 +41,21 @@ const allImages = [
   
   // Fundraising
   {
-    src: '/images/cof.jpg',
+    src: '/images/cof.JPG',
     alt: 'coffee ceremony fundraiser',
     title: 'Coffee ceremony' ,
     description: 'preparing a coffee ceremony with elders',
     category: 'elder-support'
   },
   {
-    src: '/images/me.jpg',
+    src: '/images/me.JPG',
     alt: 'Shoe cleaning fundraiser',
     title: 'Shoe Cleaning Service',
     description: 'Youth members raising funds through shoe cleaning services',
     category: 'fundraising'
   },
   {
-    src: '/images/ha.jpg',
+    src: '/images/ha.JPG',
     alt: 'Habesha ',
     title: 'Support Habesha',
     description: 'Providing labour support at habesha for elder',
@@ -64,21 +64,21 @@ const allImages = [
   
   // City Cleaning
   {
-    src: '/images/vv.jpg',
+    src: '/images/vv.JPG',
     alt: 'City cleaning volunteers',
     title: 'City Cleanup Day',
     description: 'Volunteers working together to clean public spaces',
     category: 'city-cleaning'
   },
   {
-    src: '/images/st.jpg',
+    src: '/images/st.JPG',
     alt: 'Street cleaning initiative',
     title: 'Street Cleanup',
     description: 'Youth collecting trash from city streets',
     category: 'city-cleaning'
   },
   {
-    src: '/images/b.jpg',
+    src: '/images/b.JPG',
     alt: 'Team of cleanup volunteers',
     title: 'Volunteer Team',
     description: 'Our dedicated team after a successful cleanup event',
@@ -87,21 +87,21 @@ const allImages = [
   
   // Holiday Support
   {
-    src: '/images/ho.jpg',
+    src: '/images/ho.JPG',
     alt: 'Holiday gift distribution',
     title: 'Holiday Gifts',
     description: 'Distributing gifts and supplies during holiday seasons',
     category: 'holiday-support'
   },
   {
-    src: '/images/mea.jpg',
+    src: '/images/mea.JPG',
     alt: 'Holiday meal preparation',
     title: 'Holiday Meals',
     description: 'Preparing special meals for elders during holidays',
     category: 'holiday-support'
   },
   {
-    src: '/images/ce.jpg',
+    src: '/images/ce.JPG',
     alt: 'Volunteers during holiday event',
     title: 'Holiday Celebration',
     description: 'Bringing joy and companionship during holiday celebrations',

@@ -6,7 +6,7 @@ const leaders = [
     name: 'Rediet Nigussie',
     role: 'Founder & Chairperson',
     bio: 'Founded Sewgna Charity Association in 2020 while studying at Debrebrehan General Secondary School. Passionate about creating sustainable impact through youth leadership.',
-    image: '/images/red.jpg',
+    image: '/images/red.JPG',
     contact: {
       phone: '+251966013379',
     }
@@ -15,7 +15,7 @@ const leaders = [
     name: 'Mekonnen Geresu',
     role: 'Vice Chairperson',
     bio: 'Joined Sewgna in its early days and has been instrumental in expanding our elder support programs. Brings strong organizational skills to the team.',
-    image: '/images/mk.jpg',
+    image: '/images/mk.JPG',
     contact: {
       phone:'+251 94 788 9124',
     }
@@ -24,7 +24,7 @@ const leaders = [
     name: 'Mekdess tilahun',
     role: 'Secretary',
     bio: 'Maintains our records and documentation. Coordinates communication between members and ensures smooth operation of all administration.',
-    image: '/images/mek.jpg',
+    image: '/images/mek.JPG',
     contact: {
       phone: '+251945605073'
     }
@@ -33,7 +33,7 @@ const leaders = [
     name: 'Dagim Simon',
     role: 'Treasurer',
     bio: 'Oversees our finances with complete transparency. Responsible for monthly financial reporting and ensuring proper allocation of resources.',
-    image: '/images/bar.jpg',
+    image: '/images/bar.JPG',
     contact: {
       phone: '+251 97 525 9195'
     }

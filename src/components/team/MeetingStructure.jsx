@@ -17,7 +17,7 @@ const MeetingStructure = () => {
             data-aos="fade-right"
           >
             <img 
-              src="/images/6.jpg" 
+              src="/images/6.JPG" 
               alt="Monthly meeting of Sewgna & Selam Charity Association"
               className="w-full h-auto"
             />

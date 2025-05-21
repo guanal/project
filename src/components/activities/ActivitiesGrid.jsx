@@ -12,21 +12,21 @@ const activities = [
     category: 'elder-support',
     images: [
       {
-        src: '/images/ab.png',
+        src: '/images/ab.PNG',
         alt: 'Volunteer helping an elder with groceries',
         title: 'Elder Home Visit',
         description: 'Our volunteers regularly visit elders to provide companionship and assistance',
         category: 'elder-support'
       },
       {
-        src: '/images/maa.jpg',
+        src: '/images/maa.JPG',
         alt: 'Volunteers cleaning an elder\'s home',
         title: 'Home Maintenance',
         description: 'Providing cleaning and maintenance services for elders\' homes',
         category: 'elder-support'
       },
       {
-        src: '/images/re.jpg',
+        src: '/images/re.JPG',
         alt: 'Elder receiving support',
         title: 'Care and Support',
         description: 'Building meaningful relationships with the elders we serve',
@@ -41,21 +41,21 @@ const activities = [
     category: 'blood-donation',
     images: [
       {
-        src: '/images/dd.jpg',
+        src: '/images/dd.JPG',
         alt: 'Blood donation campaign',
         title: 'Blood Donation Drive',
         description: 'Youth volunteers participating in our blood donation campaign',
         category: 'blood-donation'
       },
       {
-        src: '/images/bbbb.jpg',
+        src: '/images/bbbb.JPG',
         alt: 'Blood donation',
         title: 'Blood Donation',
         description: 'Participation in donating blood',
         category: 'blood-donation'
       },
       {
-        src: '/images/bbb.jpg',
+        src: '/images/bbb.JPG',
         alt: 'Photo after donation',
         title: 'Photo After Donation',
         description: 'Photos after successful blood donation campaign',
@@ -70,28 +70,28 @@ const activities = [
     category: 'fundraising',
     images: [
       {
-        src: '/images/lo.jpg',
+        src: '/images/lo.JPG',
         alt: 'Lottery Fundraising event',
         title: 'Holiday Lottery Fundraiser',
         description: 'Raising funds for holidays by lottery',
         category: 'fundraising'
       },
       {
-        src: '/images/so.jpg',
+        src: '/images/so.JPG',
         alt: 'Soft cloth fundraiser',
         title: 'Soft Cloth Fundraiser',
         description: 'Raising holiday funds by selling soft cloths used for toilet and hand cleaning',
         category: 'fundraising'
       },
       {
-        src: '/images/me.jpg',
+        src: '/images/me.JPG',
         alt: 'Shoe cleaning fundraiser',
         title: 'Shoe Cleaning Service',
         description: 'Youth members raising funds through shoe cleaning services',
         category: 'fundraising'
       },
       {
-        src: '/images/pa.jpg',
+        src: '/images/pa.JPG',
         alt: 'Donation handover',
         title: 'Support Delivery',
         description: 'Providing financial support to those in need of medical treatment',
@@ -106,21 +106,21 @@ const activities = [
     category: 'city-cleaning',
     images: [
       {
-        src: '/images/vv.jpg',
+        src: '/images/vv.JPG',
         alt: 'City cleaning volunteers',
         title: 'City Cleanup Day',
         description: 'Volunteers working together to clean public spaces',
         category: 'city-cleaning'
       },
       {
-        src: '/images/st.jpg',
+        src: '/images/st.JPG',
         alt: 'Street Cleanup',
         title: 'Street Cleanup',
         description: 'Youth collecting trash from city streets',
         category: 'city-cleaning'
       },
       {
-        src: '/images/b.jpg',
+        src: '/images/b.JPG',
         alt: 'Volunteer team',
         title: 'Volunteer Team',
         description: 'Our dedicated team after a successful cleanup event',
@@ -135,21 +135,21 @@ const activities = [
     category: 'holiday-support',
     images: [
       {
-        src: '/images/ho.jpg',
+        src: '/images/ho.JPG',
         alt: 'Holiday gift distribution',
         title: 'Holiday Gifts',
         description: 'Distributing gifts and supplies during holiday seasons',
         category: 'holiday-support'
       },
       {
-        src: '/images/mea.jpg',
+        src: '/images/mea.JPG',
         alt: 'Holiday meal preparation',
         title: 'Holiday Meals',
         description: 'Preparing special meals for elders during holidays',
         category: 'holiday-support'
       },
       {
-        src: '/images/ce.jpg',
+        src: '/images/ce.JPG',
         alt: 'Volunteers during holiday event',
         title: 'Holiday Celebration',
         description: 'Bringing joy and companionship during holiday celebrations',
